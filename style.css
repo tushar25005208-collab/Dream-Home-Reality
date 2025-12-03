@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #012841;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: x-large;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#filters form, #enquiry form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#filters input, #filters select, #enquiry input, #enquiry textarea {
+  padding: 10px;
+  border: 5px solid #012841;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#propertyList {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.property {
+  background: #d9f0f6;
+  border-radius: 15px;
+  padding: 15px;
+  width:100%;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  font-size: large;
+}
+
+.property img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 10px;
+
+}
+
+.property h3 {
+  margin: 10px 0;
+  font-size: xx-large;
+  color: #012841;
+}
+
+button {
+  background: #012841;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b4f72;
+}
+
+footer {
+  background: #012841;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Homes Realty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏡 Dream Homes Realty</h1>
+    <nav>
+      <a href="#listings">Listings</a>
+      <a href="#enquiry">Enquiry</a>
+    </nav>
+  </header>
+
+  <!-- Search Filters -->
+  <section id="filters">
+    <h2>Search Properties</h2>
+    <form id="filterForm">
+      <input type="text" id="locationFilter" placeholder="Location">
+      <select id="typeFilter">
+        <option value="">Property Type</option>
+        <option value="Apartment">Luxury Apartment</option>
+        <option value="Villa">Beach Side Villa</option>
+        <option value="Plot">Residential Plot</option>
+        <option value="Cottage">Cozy Cottage</option>
+      </select>
+      <input type="number" id="minPrice" placeholder="Min Price">
+      <input type="number" id="maxPrice" placeholder="Max Price">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- Property Listings -->
+  <section id="listings">
+    <h2>Available Properties</h2>
+    <div id="propertyList"></div>
+  </section>
+
+  <!-- Enquiry Form -->
+  <section id="enquiry">
+    <h2>Enquiry Form</h2>
+    <form id="enquiryForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>©  Dream Homes Realty</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
